@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jyotsana Parkhedkar - Developer</title>
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator">
+        <div class="scroll-progress"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">JP</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#publications">Publications</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Jyotsana Parkhedkar</h1>
+                <div class="subtitle">Developer</div>
+                <p>Passionate about leveraging artificial intelligence and machine learning to solve real-world problems. Currently pursuing M.S. in Computer Science with specialization in AI & ML at University at Albany, SUNY.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#" class="btn btn-secondary" onclick="downloadResume()">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                    <a href="mailto:jyotsanaparkhedkar266@gmail.com" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Get In Touch
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/JYOTSANAPARKHEDKAR266" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/jyotsana-parkhedkar-92b0382a2/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:jyotsanaparkhedkar266@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-image">
+                    <img src="assets\images\profile-photo.jpg" alt="Jyotsana Parkhedkar - Profile Photo" class="profile-photo">
+                    </div>
+                    <p>MS in Computer Science</p>
+                    <p>University at Albany, SUNY</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title fade-in">About Me</h2>
+        <div class="about-content">
+            <div class="about-text fade-in">
+                <p>I'm a dedicated AI/ML engineer currently pursuing my Master's degree in Computer Science at University at Albany, SUNY. With a strong foundation in artificial intelligence, machine learning, and data science, I'm passionate about creating innovative solutions that make a meaningful impact.</p>
+                <p>As a Silver Medalist and Department Topper from the University of Mumbai, I bring both academic excellence and practical experience to every project. My journey spans from developing assistive technologies like sign language recognition systems to creating cutting-edge web prototyping tools using LLM APIs.</p>
+                <p>I thrive in collaborative environments and enjoy tackling complex challenges that push the boundaries of what's possible with AI and machine learning.</p>
+            </div>
+            <div class="about-stats fade-in">
+                <div class="stat-card">
+                    <span class="stat-number">3.02</span>
+                    <span class="stat-label">Graduate GPA</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">21+</span>
+                    <span class="stat-label">Customer Interviews</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">80%</span>
+                    <span class="stat-label">ML Model Accuracy</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">40%</span>
+                    <span class="stat-label">Design Efficiency Boost</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title fade-in">Skills & Technologies</h2>
+        <div class="skills-grid">
+            <div class="skill-category fade-in">
+                <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                <div class="skill-item">
+                    <span class="skill-name">Python</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">95%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Java</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">85%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">C/C++</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">80%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">JavaScript</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">90%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">R</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">75%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category fade-in">
+                <h3><i class="fas fa-brain"></i> AI & Machine Learning</h3>
+                <div class="skill-item">
+                    <span class="skill-name">TensorFlow</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">90%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">PyTorch</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">85%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Machine Learning</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">92%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 92%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Deep Learning</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">88%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 88%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Computer Vision</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">85%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category fade-in">
+                <h3><i class="fas fa-globe"></i> Web Technologies</h3>
+                <div class="skill-item">
+                    <span class="skill-name">React</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">88%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 88%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">HTML/CSS</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">95%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Node.js</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">80%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">RESTful APIs</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">85%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category fade-in">
+                <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                <div class="skill-item">
+                    <span class="skill-name">AWS</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">80%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Microsoft Azure</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">75%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Google Cloud</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">78%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 78%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Docker</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">82%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 82%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Jenkins</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">75%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category fade-in">
+                <h3><i class="fas fa-database"></i> Data & Analytics</h3>
+                <div class="skill-item">
+                    <span class="skill-name">MySQL</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">88%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 88%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">MongoDB</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">85%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">PowerBI</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">90%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Data Visualization</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">92%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 92%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Statistical Analysis</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">90%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category fade-in">
+                <h3><i class="fas fa-tools"></i> Development Tools</h3>
+                <div class="skill-item">
+                    <span class="skill-name">Git</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">90%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">VS Code</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">95%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">IntelliJ IDEA</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">85%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">JIRA</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">80%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-name">Agile/Scrum</span>
+                    <div class="skill-level">
+                        <span class="skill-percentage">88%</span>
+                        <div class="skill-bar"><div class="skill-progress" style="width: 88%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title fade-in">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card fade-in">
+                <div class="project-header">
+                    <div class="project-title">Prototype Creator for Web Developers</div>
+                    <div class="project-period">Aug 2024 – Dec 2024</div>
+                </div>
+                <div class="project-content">
+                    <div class="project-description">
+                        Developed a revolutionary web prototyping tool using LLM APIs that reduces manual design effort by 40% and generates real-time, device-optimized prototypes. Led Agile ceremonies and implemented robust API communication.
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">LLM APIs</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Agile</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card fade-in">
+                <div class="project-header">
+                    <div class="project-title">Sign Language Recognition System</div>
+                    <div class="project-period">Aug 2023 – Apr 2024</div>
+                </div>
+                <div class="project-content">
+                    <div class="project-description">
+                        Developed a machine learning model with 80% accuracy to translate sign language, enhancing accessibility for specially-abled users. Designed a comprehensive HCI system for bidirectional communication.
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Machine Learning</span>
+                        <span class="tech-tag">Computer Vision</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">HCI</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card fade-in">
+                <div class="project-header">
+                    <div class="project-title">RNA Sequencing Business Initiative</div>
+                    <div class="project-period">May 2025 – Present</div>
+                </div>
+                <div class="project-content">
+                    <div class="project-description">
+                        Spearheaded business efforts for an RNA sequencing project under Dr. Zhang, conducting 21+ customer interviews to refine strategy and developed a responsive website to boost brand presence.
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Business Strategy</span>
+                        <span class="tech-tag">Web Development</span>
+                        <span class="tech-tag">Customer Research</span>
+                        <span class="tech-tag">Biotech</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <h2 class="section-title fade-in">Professional Experience</h2>
+        <div class="experience-timeline">
+            <div class="timeline-item fade-in">
+                <div class="experience-header">
+                    <div>
+                        <div class="experience-title">Research Intern</div>
+                        <div class="experience-company">RISE Summer Program, University at Albany</div>
+                    </div>
+                    <div class="experience-period">May 2025 – Present</div>
+                </div>
+                <div class="experience-description">
+                    <ul>
+                        <li>Spearheaded business efforts for an RNA sequencing project, conducting 21+ customer interviews to refine strategy and investor outreach</li>
+                        <li>Independently developed a responsive website to boost brand presence and support early user acquisition for the biotech venture</li>
+                        <li>Collaborated with Dr. Zhang on cutting-edge research in computational biology and genomics</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item fade-in">
+                <div class="experience-header">
+                    <div>
+                        <div class="experience-title">Data Analyst Intern</div>
+                        <div class="experience-company">IBM, Mumbai, India</div>
+                    </div>
+                    <div class="experience-period">May 2023 – July 2023</div>
+                </div>
+                <div class="experience-description">
+                    <ul>
+                        <li>Developed data visualizations and performed statistical analysis using Python & R, increasing actionable insights by 15%</li>
+                        <li>Created interactive dashboards with Excel and PowerBI, enhancing decision-making efficiency by 20%</li>
+                        <li>Built a predictive maintenance model with 70% accuracy, contributing to a 10% reduction in operational downtime</li>
+                        <li>Automated data cleaning processes in Python, improving workflow efficiency by 25%</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item fade-in">
+                <div class="experience-header">
+                    <div>
+                        <div class="experience-title">Web Developer Intern</div>
+                        <div class="experience-company">InfoBay, Mumbai, India</div>
+                    </div>
+                    <div class="experience-period">Nov 2022 – Jan 2023</div>
+                </div>
+                <div class="experience-description">
+                    <ul>
+                        <li>Revamped website UX and optimized performance, resulting in a 30% boost in load efficiency and 15% increase in user engagement</li>
+                        <li>Integrated social media functionalities to enhance connectivity and drive a 20% increase in site traffic</li>
+                        <li>Led the end-to-end design and deployment of a portfolio website for a social media influencer, increasing client inquiries by 25%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="section">
+        <h2 class="section-title fade-in">Publications & Research</h2>
+        <div class="publications-grid">
+            <div class="publication-card fade-in">
+                <div class="publication-title">Sign Language Recognition</div>
+                <div class="publication-description">
+                    A comprehensive research paper focused on assistive technology using artificial intelligence and machine learning. This work explores innovative approaches to bridge communication gaps for specially-abled users through advanced computer vision and deep learning techniques.
+                </div>
+                <a href="assets/documents/research-papers/sign-language-recognition.pdf" class="publication-link" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                    View Paper
+                </a>
+            </div>
+            <div class="publication-card fade-in">
+                <div class="publication-title">New Age E-Voucher Application for P2P Consumption</div>
+                <div class="publication-description">
+                    Proposed a secure and scalable digital voucher system for peer-to-peer consumption. This research addresses modern digital payment challenges and presents innovative solutions for secure transaction processing in the digital economy.
+                </div>
+                <a href="assets/documents/research-papers/e-voucher-application.pdf" class="publication-link" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                    View Paper
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-text">
+                <p>&copy; 2025 Jyotsana Parkhedkar. All rights reserved.</p>
+                <p>Built with passion for AI/ML and innovative technology solutions.</p>
+            </div>
+            <div class="footer-links">
+                <a href="mailto:jyotsanaparkhedkar266@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/jyotsana" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/jyotsana" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

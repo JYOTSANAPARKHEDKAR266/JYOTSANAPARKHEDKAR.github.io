@@ -1,0 +1,66 @@
+{
+  "name": "jyotsana-portfolio",
+  "version": "1.0.0",
+  "description": "A modern, responsive portfolio website showcasing AI/ML and software development work",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=/index.html",
+    "dev": "live-server --port=3000 --watch=.",
+    "build": "npm run optimize-css && npm run optimize-js && npm run optimize-images",
+    "optimize-css": "cleancss -o dist/style.min.css style.css",
+    "optimize-js": "uglifyjs script.js -o dist/script.min.js -c -m",
+    "optimize-images": "imagemin assets/images/* --out-dir=dist/images",
+    "deploy": "npm run build && gh-pages -d dist",
+    "lint": "eslint script.js",
+    "format": "prettier --write *.html *.css *.js",
+    "validate-html": "html-validate index.html",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "portfolio",
+    "ai",
+    "machine-learning",
+    "data-science",
+    "web-development",
+    "responsive",
+    "javascript",
+    "css",
+    "html"
+  ],
+  "author": {
+    "name": "Jyotsana Parkhedkar",
+    "email": "jyotsanaparkhedkar266@gmail.com",
+    "url": "https://github.com/jyotsana"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyotsana/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jyotsana/portfolio/issues"
+  },
+  "homepage": "https://jyotsana.github.io/portfolio",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "clean-css-cli": "^5.6.2",
+    "uglify-js": "^3.17.4",
+    "imagemin-cli": "^7.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "gh-pages": "^4.0.0",
+    "eslint": "^8.54.0",
+    "prettier": "^3.1.0",
+    "html-validate": "^8.7.4"
+  },
+  "dependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 11"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
